@@ -5,7 +5,7 @@
 <form (submit)="addName()">
   <md-input-container layout="row">
     <button md-button [disabled]="nameModel?.length==0" class="md-primary" type="submit">Add</button>
-    <input type="text" placeholder="Awesome Computer Scientist" id="label" [(ngModel)]="nameModel" flex>
+    <input md-input type="text" placeholder="Awesome Computer Scientist" id="label" [(ngModel)]="nameModel" flex>
   </md-input-container>
 </form>
 
