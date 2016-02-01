@@ -1,1 +1,13 @@
 /* Sample asset */
+
+/*.fixed-toolbar[md-peekaboo] {*/
+  /*display: none;*/
+/*}*/
+
+/*.shadow-toolbar[md-peekaboo] {*/
+  /*display: inherit;*/
+/*}*/
+
+/*[md-peekaboo].md-peekaboo-active {*/
+  /*display: inherit;*/
+/*}*/

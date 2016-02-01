@@ -1,13 +1,16 @@
 <section class="material-app-content">
-  <md-toolbar class="md-whiteframe-z1">
+  <!--<md-toolbar md-peekaboo class="fixed-toolbar"></md-toolbar>-->
+  <!--<md-toolbar class="fixed-toolbar"></md-toolbar>-->
+  <md-toolbar class="md-whiteframe-z1 fixed-toolbar">
     <nav class="md-toolbar-tools">
       <button md-button alt="Home" class="md-icon-button" [routerLink]="['/Home']"><i class="" md-icon>home</i></button>
-      <h1 flex>My Angular2 App</h1>
-      <button md-button [routerLink]="['/About']">About</button>
+      <h1 flex>당당 임시 홈페이지</h1>
+      <button md-button [routerLink]="['/About']">당당소개</button>
+      <button md-button [routerLink]="['/Schedule']">스케쥴관리</button>
     </nav>
   </md-toolbar>
 
-  <md-content layout-padding layout="column" layout-align="center center">
+  <md-content layout-padding layout="column" layout-align="center center" class="main-content-container">
     <router-outlet></router-outlet>
   </md-content>
 

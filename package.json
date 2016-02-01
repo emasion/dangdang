@@ -1,10 +1,7 @@
 {
-  "name": "angular2-seed",
+  "name": "DangDangService",
   "version": "0.0.0",
-  "description": "Seed for Angular 2 apps",
-  "repository": {
-    "url": "https://github.com/mgechev/angular2-seed"
-  },
+  "description": "DangDang.100church Homepage",
   "scripts": {
     "build.dev": "gulp build.dev",
     "build.dev.watch": "gulp build.dev.watch",
@@ -24,7 +21,7 @@
     "test": "gulp test",
     "tsd": "tsd"
   },
-  "author": "Minko Gechev <mgechev>",
+  "author": "emasion",
   "license": "MIT",
   "devDependencies": {
     "async": "^1.4.2",

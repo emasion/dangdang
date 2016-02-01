@@ -6,8 +6,10 @@ import {
 // import {HTTP_PROVIDERS} from 'angular2/http';
 import {MATERIAL_DIRECTIVES} from 'ng2-material/all';
 
+// import page component
 import {HomeCmp} from '../home/home';
 import {AboutCmp} from '../about/about';
+import {ScheduleCmp} from '../schedule/schedule';
 import {PeopleList} from '../../services/people_list';
 
 @Component({
@@ -20,6 +22,7 @@ import {PeopleList} from '../../services/people_list';
 })
 @RouteConfig([
   { path: '/', component: HomeCmp, as: 'Home' },
-  { path: '/about', component: AboutCmp, as: 'About' }
+  { path: '/about', component: AboutCmp, as: 'About' },
+  { path: '/schedule', component: ScheduleCmp, as: 'Schedule' }
 ])
 export class AppCmp {}

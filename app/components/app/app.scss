@@ -1,0 +1,14 @@
+app {
+  // 고정 툴바
+  .fixed-toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 30;
+  }
+  // main content
+  .main-content-container {
+    margin-top: 64px;
+  }
+}

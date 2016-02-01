@@ -11,7 +11,7 @@ export const LIVE_RELOAD_PORT     = argv['reload-port'] || 4002;
 export const DOCS_PORT            = argv['docs-port']   || 4003;
 export const APP_BASE             = argv['base']        || '/';
 
-export const APP_TITLE            = 'My Angular2 App';
+export const APP_TITLE            = '당당 임시 홈페이지';
 
 export const APP_SRC              = 'app';
 export const ASSETS_SRC           = `${APP_SRC}/assets`;
